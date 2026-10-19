@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="把三角形拼一拼" />
+  <title>把三角形拼一拼</title>
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=0a7EOMUVjq3u5yUY5opXxh08uYnYfN6P2VBSiomJDSrFzEX8pNv_KVjXyprQHCDO7UedFwL3GFiPxbHEdCvPDNOzHAFfW4Ke4cjkY14CRMi4WPXyJx5kZi4mizmg-pxdGuYNm9_wK5F6RJQP-JH8cSh8bRNFuQbgopAdmxKCs-erifefs1iNIhxxJxJkyE5sMBYt7L1a6t_76PadVllB-0NbZ-FbOdS2lY5gonFPNc8W1ORCTrIZIob8tmbJFB0AN2ine7HFOnm-myo9mgrNlyiu0JgXfBgaDFtGehjVBve77hbrjc6yjOAXmqpsB7EWcMzcaKA7LYtkijzegDcy3EgRp2SWdUOgCj4gFxyCalMdPOZ9dPesjEWjQAlZPlIZAWI70HOEPqDDNB7OvD5eJjNapg4RAhpG1lkcqXnwPGHaWHx7V9_PrDE6c-itty2qZ6HnpTxHWSGea12SSC45hzIhXZE4FzLL6od-SFfDQ8I2TBRTpm38BFl2pnBZtWeYdBUIDcRQXAwvhtx0tPXxG_3imhZsqyGg_xADMWTJ-R9dguAZqEvoyw0sFcf_XMaB3x5wc-skm_x9mkA_kfx7_s4ZJNl1htzW-RZsx4drz5UUpngoRpbQ_ljN-wEvUc3jHszhHhG_wNgSTGhjoH1vkVZbtxzAys7o-AfgkQmOlX-u9c2UpzaQaGfDkkvc8RVRvTpkh8fUZLLcd-VkK0gd0vgh_nyLMG3mDpuJ8ZFVOmV1erE_rkb1e3zjYqA8QOVjn-HRl_lF6juuMVNN56ZuuE-9ujWe6JyNcQkJd9SwhP4Jrvp8RUy9Sa7TDv39pF_X6zQjr6mXJ1LYntIPRwrF2REiXwXHB3wSAbgVPoa6OS7GNyagtOR9jAQhASeE6CQsDdDMeUaHWOtcTEOV6l5mI-HRMY385zU_RCd0SIqsMjr53glg-PIsiHLqLlU9d5Z-6V5mMhHK10BxDiXl0eY7ul7rPN6x062-D2r9mLo_rABfxpxnKGR9xIPuGCmJdSpmelXz5_FDAokvt3vSDUTI7nPK3buMyBrg2i9xYuhjly8CJZSmlfUEijwauJAP_DoJSnPS0VJF_4Mb5MckbIhQIfsM9n73T-mdSU-Ji-QS2wm6J6MOmYbSPDIYLp_hbhm8eApj5djY3QkjFQTs5xh4F6khsZOBXt5eAQB1PfgtdkQVj19IkYliAVSjrm0S9zOOp48h-l7z5GEXQV2prYPTVnZu0iwD5R_mnK1tPWaTvdPA8ylRM-rBl-WYSu_3s04y5orc4k16RLXGcGkS-4u34hXAR4_C8xWrIswv6-Mssva4VlFS6Gz2svQx0WF2LqvtGymOwdSLBAsSLXTVm1Z6SxU6fPpnNixCbP7FZfdlZrgwLAMk-dKQWCjkhEHOqXsdzkT8ZAaXld74NBxXu68yMeUX47kf2GKWZ1FqVkXL-qbfgnxwEkofJ22dzet5V2X3GxAVaC12jqdMgQhFBEcRlZseIp8frHp2BLMyyFWu-hpJXkZtppfXbTiIe-dtkM1F7o-mONK5cftZ5MsiGsxTHJ6hS0XYnDewxOuOSAFZbdR6SO-peuqZqaKeBFSli4JhWdZoVr9ttE45qxdUqyKoEobhUcQ4mt8ZM2vw2AnXVGPQpK8OHF7jNYNGXWNWs3MXLZb6t6_byeIfMXckDzGYWRzvZSG8QvClDes-AQrKze5NU7TIAqwPXaWLHZyFCnBz" nonce="5b236fe8ce2e53ff8fff5ec8b1256a1f" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9tYWlsLWF0dGFjaG1lbnQuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2F0dGFjaG1lbnQvdS8wLz91aT0yJmlrPTdmZTQyNzEwMWQmYXR0aWQ9MC4xJnBlcm1tc2dpZD1tc2ctYTpyLTQyOTMxODk1OTE0MTY3NDI1MzEmdGg9MWExNGU1NDVkOTg4ZTI1MCZ2aWV3PWF0dCZ6dyZkaXNwPXNhZmUmc2FkZGJhdD1BTkdqZEpfTjZxUUM2NUF0UWpIV1lUVGgtLWNqR2YtdDlITGJPSGxjNlA5SEJwMEhoX2JZa1FkZVM4SEVWWkRESnRrYnlKRHRCRGZ3ZEhsaDNUQnh0TDh0bTE1WEN4dnNYTk9ZdWRucjk5SjJvRkI4TWRsV05sMFN1VlZvTmlwVEFsNG0teGVoNkR5cUxQQVM2MnNtRU1XaUF1S2pBemlnUC1wTHQ0Mjl1ZG1ncVJfbmR1d0FMc3lJVDc2OW5OSmthRDlFWEJDLWRrQVZjTmltVk5rVGtHbmU4OG03Qzg1dkl4ZUZsQldZbnh5M1FqNWthTVdiM0QyNFVaaHNzWkhUQzUtVkpRejVmVi1rNWtuMzE4TFlITGg3N0lXeHRPRTg1Ukg2Z202Q3lmV3M5OHQtSjVkbXZvTUk3aW1BdlpUbVpYVjFlNV9hZk5VOWhFNkZLd0JSZ3NQRnBaSWtwSlVpUU5PQ09KNGFHdWFUcmVEQl9iWW9XdWhHckNZZ2x5VU9tSVJCVk9GaDBZYTZMdy0zZ1pmbjVoeUJyTUw3WFd3VGtFVzlFenNaSV9ZTVNXSnZPajhmcWNRcjBOWFB6S0paUUlfUEJwMjI3MVNYLXViLVR5VGdLRDRCaDVSWjZISWlLT2FEbF9tNEpzZTNvRHhOcHplLWNZenM3VmtYMnZvemdoalV1V3NTVEhHRWk2OGFEOHBNSGM5aFBmTnBDTWRxa1lfN01xQV82MVV5cEdMQUl0ZmsxMXRuUVFhSDhsMFNETi1yOGRxa2pPOEgtanZqQjVZQnc0elV0WjYyaUVMWC1ULVloN244bUxJdEgxSG9fZ3IwUnpST1ZUMmlVVklBTFljRmI0a2NlNU5CaldHNEtEanRRMDdWc0pBT1JMTG5nNkhieUtXZklyVUhVQ1o5dVpSNW9oODJfLTlEZnYwX1ZDb1EyaVFaRHZzQnpqVWFBWW9PVU51MlQ0MjVwX3pDelE2VDBkcWdMTUVsQWxPbFdLTndCc1BPT3BHbkZFbXRCb1ZGd3h3cE9lcjBLYmJYRmxLTnNGT0tFRjdGOVRDRmdYdWw1LWJqSzFuaW5CMnRkSTJhMUt3Q2VpbzhFcnhEUzBHTFRIRFQ0eWdXM2YtS1FVWVZta3J6S0NUM1FGa3ZZTThoNjdCN0FORzFQb3pGM3B5d2R4SGptZDR5OHhPVnRQNmVkSHk0dFhHX05OS3VSWVhaSGhEVnJRQ1V0MHdtZ0JuaTFDcmVUZk5Hd29KU01LSVJBUkdITjNKR0F4ZHYwdzJndERRSGR2OTNzNDE5eEpGTVA5VlRuQjlMVUpLMTJUQzVySFYtNTM5NFd4V3NHV3BtYVhwNkhoM2VFREdxbm1jNjRfWThJN3B5R2liTi1NbkpZMUl2VFVKUEx6RmZfYV8teE1HbGI1ektlLVVIcDFMVUJuT0NGZ3lvQlFF"/><style>
+    :root {
+      --paper: #fff6df;
+      --ink: #17324d;
+      --muted: #3f5b78;
+      --side-0: #0057ff;
+      --side-1: #00b140;
+      --side-2: #d100ff;
+      --height: #ff3b00;
+      --rotate: #00a3d9;
+      --primary: #00a86b;
+      --reset: #ff5a7a;
+      --shadow: 0 10px 28px rgba(23, 50, 77, 0.12);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      height: 100%;
+      height: 100dvh;
+      overflow: hidden;
+    }
+
+    body {
+      font-family: "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% -10%, #9be7ff 0%, transparent 34%),
+        radial-gradient(circle at 92% 0%, #ffd36b 0%, transparent 32%),
+        radial-gradient(circle at 80% 100%, #ff9ad5 0%, transparent 36%),
+        linear-gradient(135deg, #7ee0c8 0%, #89c8ff 42%, #ffd27a 100%);
+      user-select: none;
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+      overscroll-behavior: none;
+    }
+
+    .app {
+      height: 100%;
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding:
+        max(8px, env(safe-area-inset-top))
+        max(12px, env(safe-area-inset-right))
+        max(8px, env(safe-area-inset-bottom))
+        max(12px, env(safe-area-inset-left));
+    }
+
+    .rotate-tip {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: #17324d;
+      color: #fff;
+      font-weight: 800;
+      font-size: 16px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .eyebrow {
+      margin: 0 0 2px;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 26px;
+      letter-spacing: 0.04em;
+    }
+
+    .steps {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .steps li {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.72);
+      font-weight: 800;
+      font-size: 15px;
+      border: 2px solid transparent;
+    }
+
+    .steps li span {
+      width: 26px;
+      height: 26px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: #fff;
+    }
+
+    .steps li[data-step="1"] { border-color: var(--side-0); color: var(--side-0); }
+    .steps li[data-step="2"] { border-color: var(--side-1); color: var(--side-1); }
+    .steps li[data-step="3"] { border-color: var(--side-2); color: var(--side-2); }
+    .steps li.is-active[data-step="1"] { background: var(--side-0); color: #fff; }
+    .steps li.is-active[data-step="2"] { background: var(--side-1); color: #fff; }
+    .steps li.is-active[data-step="3"] { background: var(--side-2); color: #fff; }
+    .steps li.is-success { background: var(--primary) !important; border-color: var(--primary) !important; color: #fff !important; }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 8px 12px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px solid #fff;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hint {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.35;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .hint b { font-weight: 800; }
+    .c0 { color: var(--side-0); }
+    .c1 { color: var(--side-1); }
+    .c2 { color: var(--side-2); }
+    .ch { color: var(--height); }
+
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+    .btn {
+      appearance: none;
+      border: 2px solid #d7e6f3;
+      background: #fff;
+      color: var(--ink);
+      border-radius: 14px;
+      min-height: 48px;
+      padding: 0 16px;
+      font: inherit;
+      font-size: 17px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .btn:active { transform: translateY(1px); }
+    .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .btn[hidden] { display: none !important; }
+
+    #btnReset { border-color: var(--reset); color: var(--reset); background: #ffe5ec; }
+    #btnReplay { border-color: var(--rotate); color: #007ea8; background: #e5f7ff; }
+
+    .btn-primary {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+      min-width: 112px;
+    }
+
+    .workspace {
+      flex: 1;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      gap: 10px;
+    }
+
+    .panel {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-height: 0;
+      overflow: auto;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.92);
+      border: 2px solid #fff;
+      border-radius: var(--radius);
+      padding: 10px 12px;
+      box-shadow: var(--shadow);
+    }
+
+    .card[hidden] { display: none !important; }
+    .card h2 { margin: 0 0 8px; font-size: 16px; }
+    .card-think.is-ready { border-color: var(--primary); }
+
+    .legend {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 7px;
+    }
+
+    .legend li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 800;
+    }
+
+    .swatch {
+      width: 36px;
+      height: 10px;
+      border-radius: 999px;
+      box-shadow: 0 0 0 2px #fff, 0 0 0 3px rgba(23, 50, 77, 0.12);
+    }
+
+    .swatch.s0 { background: var(--side-0); }
+    .swatch.s1 { background: var(--side-1); }
+    .swatch.s2 { background: var(--side-2); }
+    .swatch.sh { background: var(--height); }
+
+    .measures { margin: 0; }
+    .measures div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .measures dt { color: var(--muted); font-weight: 800; }
+    .measures dd { margin: 0; font-size: 26px; font-weight: 800; }
+    #mHeight { color: var(--height); }
+
+    .empty-note { margin: 0; color: var(--muted); font-weight: 800; }
+
+    .tag[hidden] { display: none !important; }
+
+    .tag {
+      margin: 8px 0 0;
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 14px;
+      background: #ffe8df;
+      color: var(--height);
+    }
+
+    .think ol {
+      margin: 0;
+      padding-left: 18px;
+      display: grid;
+      gap: 6px;
+      font-weight: 800;
+    }
+
+    .paper-wrap {
+      min-height: 0;
+      height: 100%;
+      background: var(--paper);
+      border: 4px solid #fff;
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: var(--shadow), inset 0 0 0 2px #ffbf66;
+    }
+
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      touch-action: none;
+    }
+
+    @media (orientation: portrait) {
+      .rotate-tip { display: flex; }
+      .toolbar, .workspace { display: flex; flex-direction: column; }
+      .paper-wrap { min-height: 420px; }
+    }
+
+    @media (orientation: landscape) {
+      h1 { font-size: 22px; }
+      .eyebrow { margin: 0; }
+      .hint { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="rotate-tip">請把 iPad 橫放。</div>
+    <header class="header">
+      <div>
+        <p class="eyebrow">小學五年級　面積探究</p>
+        <h1>把三角形拼一拼</h1>
+      </div>
+      <ol class="steps" id="steps">
+        <li data-step="1" class="is-active"><span>1</span>畫三角形</li>
+        <li data-step="2"><span>2</span>複製</li>
+        <li data-step="3"><span>3</span>拼砌</li>
+      </ol>
+    </header>
+
+    <div class="toolbar">
+      <p class="hint" id="hint" aria-live="polite"></p>
+      <div class="actions">
+        <button type="button" id="btnReset" class="btn">重設</button>
+        <button type="button" id="btnReplay" class="btn" hidden>再拼一次</button>
+        <button type="button" id="btnNext" class="btn btn-primary" disabled>複製</button>
+      </div>
+    </div>
+
+    <div class="workspace">
+      <aside class="panel">
+        <section class="card">
+          <h2>圖例</h2>
+          <ul class="legend">
+            <li><i class="swatch s0"></i>藍邊</li>
+            <li><i class="swatch s1"></i>綠邊</li>
+            <li><i class="swatch s2"></i>紫邊</li>
+          </ul>
+        </section>
+        <section class="card card-think" id="thinkCard" hidden>
+          <h2>想一想</h2>
+          <ol>
+            <li>拼出來是什麼？</li>
+            <li>面積有沒有變？</li>
+            <li>一個三角形佔多少？</li>
+          </ol>
+        </section>
+      </aside>
+      <div class="paper-wrap">
+        <canvas id="canvas" role="application" aria-label="方格紙"></canvas>
+      </div>
+    </div>
+  </div>
+  <script>
+    (() => {
+      const SIDES = ["#0057ff", "#00b140", "#d100ff"];
+      const HEIGHT = "#ff3b00";
+      const COLORS = {
+        paper: "#fff6df",
+        grid: "#f0c27a",
+        gridBold: "#e3942c",
+        ink: "#17324d",
+        pieceA: "rgba(0, 87, 255, 0.26)",
+        pieceB: "rgba(255, 176, 0, 0.36)",
+        rotate: "#00a3d9",
+      };
+
+      const canvas = document.getElementById("canvas");
+      const ctx = canvas.getContext("2d");
+      const hintEl = document.getElementById("hint");
+      const btnReset = document.getElementById("btnReset");
+      const btnReplay = document.getElementById("btnReplay");
+      const btnNext = document.getElementById("btnNext");
+      const thinkCard = document.getElementById("thinkCard");
+      const stepEls = [...document.querySelectorAll(".steps li")];
+
+      const state = {
+        step: 1,
+        cols: 16,
+        rows: 10,
+        cell: 40,
+        originX: 24,
+        originY: 24,
+        points: [],
+        pieces: [],
+        homeA: null,
+        homeB: null,
+        selectedId: null,
+        selectedEdge: null,
+        drawnEdge: null,
+        drag: null,
+        tween: null,
+        ghost: null,
+        pointerId: null,
+        asm: { kind: "none" },
+        heightMiss: false,
+      };
+
+      let lastHint = "";
+
+      function resetAll() {
+        state.step = 1;
+        state.points = [];
+        state.pieces = [];
+        state.homeA = null;
+        state.homeB = null;
+        state.selectedId = null;
+        state.selectedEdge = null;
+        state.drawnEdge = null;
+        state.drag = null;
+        state.tween = null;
+        state.ghost = null;
+        state.pointerId = null;
+        state.asm = { kind: "none" };
+        state.heightMiss = false;
+        updateUI();
+        draw();
+      }
+
+      function replay() {
+        const a = pieceById("a");
+        const b = pieceById("b");
+        if (!a || !b) return;
+        state.tween = null;
+        state.ghost = null;
+        state.drag = null;
+        state.drawnEdge = null;
+        state.selectedEdge = null;
+        state.heightMiss = false;
+        a.pos = { ...state.homeA };
+        a.rot = 0;
+        b.pos = { ...state.homeB };
+        b.rot = 0;
+        state.selectedId = "b";
+        state.step = 3;
+        updateUI();
+        draw();
+      }
+
+      function layout() {
+        const wrap = canvas.parentElement;
+        const dpr = Math.max(1, window.devicePixelRatio || 1);
+        const cssW = Math.max(1, wrap.clientWidth);
+        const cssH = Math.max(1, wrap.clientHeight);
+        if (cssW < 20 || cssH < 20) return;
+        canvas.width = Math.floor(cssW * dpr);
+        canvas.height = Math.floor(cssH * dpr);
+        canvas.style.width = `${cssW}px`;
+        canvas.style.height = `${cssH}px`;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        const pad = 18;
+        const cell = Math.max(28, Math.min(48, Math.floor(Math.min((cssW - pad * 2) / 16, (cssH - pad * 2) / 10))));
+        state.cols = Math.max(8, Math.floor((cssW - pad * 2) / cell));
+        state.rows = Math.max(6, Math.floor((cssH - pad * 2) / cell));
+        state.cell = cell;
+        state.originX = Math.floor((cssW - state.cols * cell) / 2);
+        state.originY = Math.floor((cssH - state.rows * cell) / 2);
+      }
+
+      function gridToPx(c, r) {
+        return { x: state.originX + c * state.cell, y: state.originY + r * state.cell };
+      }
+
+      function eventPos(e) {
+        const rect = canvas.getBoundingClientRect();
+        return { x: e.clientX - rect.left, y: e.clientY - rect.top };
+      }
+
+      function alignGridPoint(p, skipIndex) {
+        const rawC = (p.x - state.originX) / state.cell;
+        const rawR = (p.y - state.originY) / state.cell;
+        if (rawC < -0.45 || rawR < -0.45 || rawC > state.cols + 0.45 || rawR > state.rows + 0.45) return null;
+        const plainC = clamp(Math.round(rawC), 0, state.cols);
+        const plainR = clamp(Math.round(rawR), 0, state.rows);
+        const others = state.points.filter((_, i) => i !== skipIndex);
+        const reach = 0.82;
+        const sameRow = others.length >= 2 && others.every((a) => a.r === others[0].r);
+        const sameCol = others.length >= 2 && others.every((a) => a.c === others[0].c);
+        let c = plainC;
+        let r = plainR;
+        if (!sameRow && others.length) {
+          let best = null;
+          let bd = reach;
+          for (const a of others) {
+            const d = Math.abs(rawR - a.r);
+            if (d < bd) { bd = d; best = a.r; }
+          }
+          if (best != null) r = best;
+        }
+        if (!sameCol && others.length) {
+          let best = null;
+          let bd = reach;
+          for (const a of others) {
+            const d = Math.abs(rawC - a.c);
+            if (d < bd) { bd = d; best = a.c; }
+          }
+          if (best != null) c = best;
+        }
+        if (others.some((a) => a.c === c && a.r === r)) return { c: plainC, r: plainR };
+        return { c, r };
+      }
+
+      function clamp(v, min, max) { return Math.max(min, Math.min(max, v)); }
+
+      function rotate(p, ang) {
+        const c = Math.cos(ang);
+        const s = Math.sin(ang);
+        return { c: p.c * c - p.r * s, r: p.c * s + p.r * c };
+      }
+
+      function normAng(a) {
+        let x = a;
+        while (x > Math.PI) x -= Math.PI * 2;
+        while (x < -Math.PI) x += Math.PI * 2;
+        return x;
+      }
+
+      function triArea(pts) {
+        if (!pts || pts.length < 3) return 0;
+        const [a, b, c] = pts;
+        return Math.abs((b.c - a.c) * (c.r - a.r) - (c.c - a.c) * (b.r - a.r)) / 2;
+      }
+
+      function shapeOk(pts = state.points) {
+        return pts.length === 3 && triArea(pts) >= 1 - 1e-6;
+      }
+
+      function samePoint(a, b) { return a.c === b.c && a.r === b.r; }
+
+      function centroid(pts) {
+        return {
+          c: (pts[0].c + pts[1].c + pts[2].c) / 3,
+          r: (pts[0].r + pts[1].r + pts[2].r) / 3,
+        };
+      }
+
+      function edgeLength(local, i) {
+        const a = local[i];
+        const b = local[(i + 1) % 3];
+        return Math.hypot(b.c - a.c, b.r - a.r);
+      }
+
+      function cross(a, b, p) {
+        return (b.c - a.c) * (p.r - a.r) - (b.r - a.r) * (p.c - a.c);
+      }
+
+      function altitude(verts, edge) {
+        const a = verts[edge];
+        const b = verts[(edge + 1) % 3];
+        const p = verts[(edge + 2) % 3];
+        const abx = b.c - a.c;
+        const aby = b.r - a.r;
+        const ab2 = abx * abx + aby * aby || 1;
+        const t = ((p.c - a.c) * abx + (p.r - a.r) * aby) / ab2;
+        const foot = { c: a.c + abx * t, r: a.r + aby * t };
+        const baseLen = Math.hypot(abx, aby);
+        const h = Math.hypot(p.c - foot.c, p.r - foot.r);
+        const axis = Math.abs(abx) < 1e-4 || Math.abs(aby) < 1e-4;
+        const inside = t >= -0.03 && t <= 1.03;
+        let nums = null;
+        if (axis && Math.abs(baseLen - Math.round(baseLen)) < 0.08 && Math.abs(h - Math.round(h)) < 0.08) {
+          nums = { base: Math.round(baseLen), height: Math.round(h) };
+        }
+        return { a, b, p, foot, t, baseLen, h, axis, inside, nums };
+      }
+
+      function currentMetrics() {
+        if (!shapeOk() || state.selectedEdge == null) return null;
+        return altitude(state.points, state.selectedEdge);
+      }
+
+      function pieceById(id) {
+        return state.pieces.find((p) => p.id === id) || null;
+      }
+
+      function worldGrid(piece, pos = piece.pos, rot = piece.rot) {
+        return piece.local.map((p) => {
+          const q = rotate(p, rot);
+          return { c: pos.c + q.c, r: pos.r + q.r };
+        });
+      }
+
+      function worldPx(piece, pos = piece.pos, rot = piece.rot) {
+        return worldGrid(piece, pos, rot).map((g) => gridToPx(g.c, g.r));
+      }
+
+      function poseToGlue(moving, i, other, j) {
+        const lenM = edgeLength(moving.local, i);
+        const lenO = edgeLength(other.local, j);
+        if (lenM < 0.2 || Math.abs(lenM - lenO) > 0.08) return null;
+        const ov = worldGrid(other);
+        const T0 = ov[(j + 1) % 3];
+        const T1 = ov[j];
+        const L0 = moving.local[i];
+        const L1 = moving.local[(i + 1) % 3];
+        const localAng = Math.atan2(L1.r - L0.r, L1.c - L0.c);
+        const targetAng = Math.atan2(T1.r - T0.r, T1.c - T0.c);
+        const rot = normAng(targetAng - localAng);
+        const midL = { c: (L0.c + L1.c) / 2, r: (L0.r + L1.r) / 2 };
+        const midOff = rotate(midL, rot);
+        const midT = { c: (T0.c + T1.c) / 2, r: (T0.r + T1.r) / 2 };
+        const pos = { c: midT.c - midOff.c, r: midT.r - midOff.r };
+        const mv = worldGrid(moving, pos, rot);
+        if (Math.hypot(mv[i].c - T0.c, mv[i].r - T0.r) > 0.06) return null;
+        if (Math.hypot(mv[(i + 1) % 3].c - T1.c, mv[(i + 1) % 3].r - T1.r) > 0.06) return null;
+        const P = mv[(i + 2) % 3];
+        const Q = ov[(j + 2) % 3];
+        const A = ov[j];
+        const B = ov[(j + 1) % 3];
+        if (cross(A, B, P) * cross(A, B, Q) >= 0) return null;
+        const mx = (P.c + Q.c) / 2 - (A.c + B.c) / 2;
+        const my = (P.r + Q.r) / 2 - (A.r + B.r) / 2;
+        if (Math.hypot(mx, my) > 0.08) return null;
+        return { pos, rot, i, j };
+      }
+
+      function findSnap(moving) {
+        const other = state.pieces.find((p) => p !== moving);
+        if (!other) return null;
+        let best = null;
+        for (let i = 0; i < 3; i++) {
+          for (let j = 0; j < 3; j++) {
+            const pose = poseToGlue(moving, i, other, j);
+            if (!pose) continue;
+            const distPx = Math.hypot((pose.pos.c - moving.pos.c) * state.cell, (pose.pos.r - moving.pos.r) * state.cell);
+            const dAng = Math.abs(normAng(pose.rot - moving.rot));
+            if (distPx > 130 || dAng > 0.85) continue;
+            const score = distPx + dAng * 70;
+            if (!best || score < best.score) best = { ...pose, distPx, dAng, score };
+          }
+        }
+        return best;
+      }
+
+      function tryMagnet(piece, limitPx, limitAng) {
+        const snap = findSnap(piece);
+        state.ghost = null;
+        if (!snap) return;
+        if (snap.distPx < limitPx && snap.dAng < limitAng) {
+          piece.pos = snap.pos;
+          piece.rot = snap.rot;
+          return;
+        }
+        if (snap.distPx < 110 && snap.dAng < 0.8) state.ghost = { piece, pose: snap };
+      }
+
+      function edgeAngle(piece, i) {
+        const a = piece.local[i];
+        const b = piece.local[(i + 1) % 3];
+        const d = rotate({ c: b.c - a.c, r: b.r - a.r }, piece.rot);
+        return Math.atan2(d.r, d.c);
+      }
+
+      function snapBasesToGrid(piece, opts) {
+        const glue = findSnap(piece);
+        if (glue && glue.distPx < 112 && glue.dAng < 0.82) return;
+
+        if (opts.rotate) {
+          const angLimit = opts.angLimit == null ? 0.34 : opts.angLimit;
+          let best = null;
+          for (let i = 0; i < 3; i++) {
+            const ang = edgeAngle(piece, i);
+            const axis = Math.round(ang / (Math.PI / 2)) * (Math.PI / 2);
+            const delta = normAng(axis - ang);
+            const d = Math.abs(delta);
+            if (d <= angLimit && (!best || d < best.d)) best = { d, delta };
+          }
+          if (best) piece.rot = normAng(piece.rot + best.delta);
+        }
+
+        const verts = worldGrid(piece);
+        let rowShift = null;
+        let colShift = null;
+        for (let i = 0; i < 3; i++) {
+          const a = verts[i];
+          const b = verts[(i + 1) % 3];
+          const dc = b.c - a.c;
+          const dr = b.r - a.r;
+          if (Math.abs(dr) < 0.03) {
+            const mid = (a.r + b.r) / 2;
+            const shift = Math.round(mid) - mid;
+            if (rowShift == null || Math.abs(shift) < Math.abs(rowShift)) rowShift = shift;
+          }
+          if (Math.abs(dc) < 0.03) {
+            const mid = (a.c + b.c) / 2;
+            const shift = Math.round(mid) - mid;
+            if (colShift == null || Math.abs(shift) < Math.abs(colShift)) colShift = shift;
+          }
+        }
+        if (rowShift != null) piece.pos.r += rowShift;
+        if (colShift != null) piece.pos.c += colShift;
+
+        if (!opts.settle) return;
+        const settled = worldGrid(piece);
+        let alongC = null;
+        let alongR = null;
+        for (let i = 0; i < 3; i++) {
+          const a = settled[i];
+          const b = settled[(i + 1) % 3];
+          if (Math.abs(b.r - a.r) < 0.03) {
+            const shift = Math.round(a.c) - a.c;
+            if (alongC == null || Math.abs(shift) < Math.abs(alongC)) alongC = shift;
+          }
+          if (Math.abs(b.c - a.c) < 0.03) {
+            const shift = Math.round(a.r) - a.r;
+            if (alongR == null || Math.abs(shift) < Math.abs(alongR)) alongR = shift;
+          }
+        }
+        if (alongC != null) piece.pos.c += alongC;
+        if (alongR != null) piece.pos.r += alongR;
+      }
+
+      function segDist(a, b, c, d) {
+        return Math.hypot(a.c - c.c, a.r - c.r) + Math.hypot(b.c - d.c, b.r - d.r);
+      }
+
+      function classify() {
+        if (state.tween || state.pieces.length < 2) return { kind: "none" };
+        const a = pieceById("a");
+        const b = pieceById("b");
+        if (!a || !b) return { kind: "none" };
+        const va = worldGrid(a);
+        const vb = worldGrid(b);
+        let best = null;
+        for (let i = 0; i < 3; i++) {
+          for (let j = 0; j < 3; j++) {
+            const d = Math.min(
+              segDist(va[i], va[(i + 1) % 3], vb[(j + 1) % 3], vb[j]),
+              segDist(va[i], va[(i + 1) % 3], vb[j], vb[(j + 1) % 3])
+            );
+            if (d > 0.2) continue;
+            const P = va[(i + 2) % 3];
+            const Q = vb[(j + 2) % 3];
+            const A = vb[j];
+            const B = vb[(j + 1) % 3];
+            const opposite = cross(A, B, P) * cross(A, B, Q) < 0;
+            const mid = Math.hypot((P.c + Q.c) / 2 - (A.c + B.c) / 2, (P.r + Q.r) / 2 - (A.r + B.r) / 2);
+            let kind = "almost";
+            if (opposite && mid < 0.12) kind = "para";
+            else if (!opposite) kind = "overlap";
+            if (!best || d < best.d) best = { kind, d, i, j };
+          }
+        }
+        return best || { kind: "none" };
+      }
+
+      function isInner(edge) {
+        if (!state.asm || state.asm.kind !== "para" || edge == null) return false;
+        return edge === state.asm.i || edge === state.asm.j;
+      }
+
+      function placeCopy(local, origin) {
+        let minC = Infinity, maxC = -Infinity, minR = Infinity, maxR = -Infinity;
+        local.forEach((p) => {
+          minC = Math.min(minC, origin.c + p.c);
+          maxC = Math.max(maxC, origin.c + p.c);
+          minR = Math.min(minR, origin.r + p.r);
+          maxR = Math.max(maxR, origin.r + p.r);
+        });
+        const w = maxC - minC;
+        const h = maxR - minR;
+        const gaps = [
+          { c: w + 1.35, r: 0 },
+          { c: -(w + 1.35), r: 0 },
+          { c: 0, r: h + 1.35 },
+          { c: 0, r: -(h + 1.35) },
+        ];
+        const fits = (pos) => local.every((p) => {
+          const c = pos.c + p.c;
+          const r = pos.r + p.r;
+          return c >= 0.25 && r >= 0.25 && c <= state.cols - 0.25 && r <= state.rows - 0.25;
+        });
+        for (const g of gaps) {
+          const pos = { c: origin.c + g.c, r: origin.r + g.r };
+          if (fits(pos)) return pos;
+        }
+        return { c: origin.c + 1.4, r: origin.r + 1.4 };
+      }
+
+      function makePieces() {
+        const cen = centroid(state.points);
+        const local = state.points.map((p) => ({ c: p.c - cen.c, r: p.r - cen.r }));
+        const homeB = placeCopy(local, cen);
+        state.homeA = { ...cen };
+        state.homeB = { ...homeB };
+        state.pieces = [
+          { id: "a", local, pos: { ...cen }, rot: 0, fill: COLORS.pieceA },
+          { id: "b", local, pos: { ...cen }, rot: 0, fill: COLORS.pieceB },
+        ];
+        state.selectedId = "b";
+        const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        if (reduce) state.pieces[1].pos = { ...homeB };
+        else startTween(state.pieces[1], cen, homeB);
+      }
+
+      function startTween(piece, from, to) {
+        state.tween = { piece, from: { ...from }, to: { ...to }, t0: performance.now(), dur: 340 };
+        requestAnimationFrame(tickTween);
+      }
+
+      function tickTween(now) {
+        const tw = state.tween;
+        if (!tw) return;
+        let t = (now - tw.t0) / tw.dur;
+        if (t > 1) t = 1;
+        const e = 1 - (1 - t) ** 3;
+        tw.piece.pos = {
+          c: tw.from.c + (tw.to.c - tw.from.c) * e,
+          r: tw.from.r + (tw.to.r - tw.from.r) * e,
+        };
+        draw();
+        if (t < 1 && state.tween === tw) requestAnimationFrame(tickTween);
+        else if (state.tween === tw) state.tween = null;
+      }
+
+      function goNext() {
+        if (state.step === 1 && shapeOk()) {
+          makePieces();
+          state.step = 2;
+        } else if (state.step === 2) {
+          state.tween = null;
+          const b = pieceById("b");
+          if (b && state.homeB) b.pos = { ...state.homeB };
+          state.step = 3;
+          state.selectedId = "b";
+        }
+        updateUI();
+        draw();
+      }
+
+      function hitVertex(p) {
+        let best = -1;
+        let bestD = 28;
+        state.points.forEach((g, i) => {
+          const q = gridToPx(g.c, g.r);
+          const d = Math.hypot(q.x - p.x, q.y - p.y);
+          if (d < bestD) { bestD = d; best = i; }
+        });
+        return best;
+      }
+
+      function rotationHandle(piece) {
+        const minR = Math.min(...piece.local.map((v) => v.r));
+        const q = rotate({ c: 0, r: minR - 1.9 }, piece.rot);
+        return { c: piece.pos.c + q.c, r: piece.pos.r + q.r };
+      }
+
+      function handleHit(piece, pt) {
+        const h = rotationHandle(piece);
+        const hp = gridToPx(h.c, h.r);
+        return Math.hypot(pt.x - hp.x, pt.y - hp.y) <= 32;
+      }
+
+      function pointInTri(p, verts) {
+        const [a, b, c] = verts;
+        const s1 = cross(a, b, p);
+        const s2 = cross(b, c, p);
+        const s3 = cross(c, a, p);
+        return !((s1 < 0 || s2 < 0 || s3 < 0) && (s1 > 0 || s2 > 0 || s3 > 0));
+      }
+
+      function distToSeg(p, a, b) {
+        const abx = b.x - a.x;
+        const aby = b.y - a.y;
+        const den = abx * abx + aby * aby || 1;
+        const t = clamp(((p.x - a.x) * abx + (p.y - a.y) * aby) / den, 0, 1);
+        return Math.hypot(p.x - (a.x + abx * t), p.y - (a.y + aby * t));
+      }
+
+      function edgeHitPx(vertsPx, p, maxDist) {
+        let best = null;
+        for (let i = 0; i < 3; i++) {
+          const d = distToSeg(p, vertsPx[i], vertsPx[(i + 1) % 3]);
+          if (d <= maxDist && (!best || d < best.d)) best = { i, d };
+        }
+        return best;
+      }
+
+      function hitPiece(piece, p) {
+        const verts = worldGrid(piece);
+        const px = worldPx(piece);
+        const g = { c: (p.x - state.originX) / state.cell, r: (p.y - state.originY) / state.cell };
+        return pointInTri(g, verts) || !!edgeHitPx(px, p, 18);
+      }
+
+      function selectEdge(i) {
+        if (state.selectedEdge !== i) {
+          state.drawnEdge = null;
+          state.heightMiss = false;
+        }
+        state.selectedEdge = i;
+      }
+
+      function apexOf(piece, edge) {
+        return worldPx(piece)[(edge + 2) % 3];
+      }
+
+      function nearestApex(p) {
+        if (state.selectedEdge == null) return null;
+        let best = null;
+        state.pieces.forEach((piece) => {
+          const apex = apexOf(piece, state.selectedEdge);
+          const d = Math.hypot(p.x - apex.x, p.y - apex.y);
+          if (d <= 36 && (!best || d < best.d)) best = { piece, d, apex };
+        });
+        return best;
+      }
+
+      function heightProgress(piece, edge, finger) {
+        const alt = altitude(worldGrid(piece), edge);
+        const apex = gridToPx(alt.p.c, alt.p.r);
+        const foot = gridToPx(alt.foot.c, alt.foot.r);
+        const dx = foot.x - apex.x;
+        const dy = foot.y - apex.y;
+        const len2 = dx * dx + dy * dy || 1;
+        const t = ((finger.x - apex.x) * dx + (finger.y - apex.y) * dy) / len2;
+        const near = Math.hypot(finger.x - foot.x, finger.y - foot.y) < 32 && t > 0.45;
+        return { t, done: t >= 0.88 || near, alt, apex, foot };
+      }
+
+      function onPointerDown(e) {
+        if (state.pointerId != null && e.pointerId !== state.pointerId) return;
+        state.pointerId = e.pointerId;
+        try { canvas.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+        const p = eventPos(e);
+
+        if (state.step === 1) {
+          const vi = hitVertex(p);
+          if (vi >= 0) {
+            state.drag = { type: "vertex", index: vi, moved: false, x: p.x, y: p.y };
+            draw();
+            return;
+          }
+          if (state.points.length < 3) {
+            const g = alignGridPoint(p, -1);
+            if (g && !state.points.some((q) => samePoint(q, g))) {
+              state.points.push(g);
+              updateUI();
+              draw();
+            }
+          }
+          return;
+        }
+
+        if (state.step !== 3) return;
+        const ordered = [...state.pieces].reverse();
+        for (const piece of ordered) {
+          if (handleHit(piece, p)) {
+            if (state.tween && state.tween.piece === piece) state.tween = null;
+            state.selectedId = piece.id;
+            const origin = gridToPx(piece.pos.c, piece.pos.r);
+            state.drag = {
+              type: "rot",
+              id: piece.id,
+              rot0: piece.rot,
+              pos0: { ...piece.pos },
+              ang0: Math.atan2(p.y - origin.y, p.x - origin.x),
+              moved: false,
+              x: p.x,
+              y: p.y,
+            };
+            draw();
+            return;
+          }
+        }
+        for (const piece of ordered) {
+          if (hitPiece(piece, p)) {
+            if (state.tween && state.tween.piece === piece) state.tween = null;
+            state.selectedId = piece.id;
+            state.drag = {
+              type: "move",
+              id: piece.id,
+              rot0: piece.rot,
+              pos0: { ...piece.pos },
+              x: p.x,
+              y: p.y,
+              moved: false,
+            };
+            draw();
+            return;
+          }
+        }
+      }
+
+      function onPointerMove(e) {
+        if (state.pointerId != null && e.pointerId !== state.pointerId) return;
+        const p = eventPos(e);
+        if (!state.drag) return;
+
+        if (state.drag.type === "vertex") {
+          const g = alignGridPoint(p, state.drag.index);
+          if (!g) return;
+          const taken = state.points.some((q, i) => i !== state.drag.index && samePoint(q, g));
+          if (!taken) state.points[state.drag.index] = g;
+          draw();
+          updateUI();
+          return;
+        }
+
+        const piece = pieceById(state.drag.id);
+        if (!piece) return;
+        if (Math.hypot(p.x - state.drag.x, p.y - state.drag.y) > 12) state.drag.moved = true;
+        if (!state.drag.moved) return;
+
+        if (state.drag.type === "move") {
+          piece.rot = state.drag.rot0;
+          piece.pos = {
+            c: clamp(state.drag.pos0.c + (p.x - state.drag.x) / state.cell, -1, state.cols + 1),
+            r: clamp(state.drag.pos0.r + (p.y - state.drag.y) / state.cell, -1, state.rows + 1),
+          };
+          tryMagnet(piece, 58, 0.62);
+          snapBasesToGrid(piece, { rotate: false });
+        } else {
+          const c = gridToPx(state.drag.pos0.c, state.drag.pos0.r);
+          const ang = Math.atan2(p.y - c.y, p.x - c.x);
+          piece.pos = { ...state.drag.pos0 };
+          piece.rot = normAng(state.drag.rot0 + (ang - state.drag.ang0));
+          tryMagnet(piece, 64, 0.7);
+          snapBasesToGrid(piece, { rotate: true, angLimit: 0.36 });
+        }
+        draw();
+        updateUI();
+      }
+
+      function onPointerUp(e) {
+        if (state.pointerId != null && e.pointerId !== state.pointerId) return;
+        try {
+          if (canvas.hasPointerCapture(e.pointerId)) canvas.releasePointerCapture(e.pointerId);
+        } catch (err) { /* ignore */ }
+
+        if (state.step === 3 && state.drag && state.drag.moved) {
+          const piece = pieceById(state.drag.id);
+          if (piece) {
+            tryMagnet(piece, 84, 0.78);
+            snapBasesToGrid(piece, {
+              rotate: state.drag.type === "rot",
+              angLimit: 0.42,
+              settle: true,
+            });
+          }
+          state.ghost = null;
+        } else if (state.step === 3 && state.drag && !state.drag.moved) {
+          const piece = pieceById(state.drag.id);
+          if (piece) {
+            piece.pos = { ...state.drag.pos0 };
+            piece.rot = state.drag.rot0;
+          }
+        }
+
+        state.drag = null;
+        state.pointerId = null;
+        state.ghost = null;
+        updateUI();
+        draw();
+      }
+
+      function buildHint() {
+        const n = state.points.length;
+        if (state.step === 1) {
+          if (n === 0) return "點三個交點，畫一個三角形。";
+          if (n === 1) return "再點兩個交點。對齊橫線或直線，底會貼齊。";
+          if (n === 2) return "再點一個交點。對齊橫線或直線，底會貼齊。";
+          if (!shapeOk()) return "畫大一點，三點不要成直線。";
+          return `三條邊是<b class="c0">藍</b>、<b class="c1">綠</b>、<b class="c2">紫</b>。靠近方格線會貼齊。`;
+        }
+        if (state.step === 2) return "兩個三角形完全一樣。";
+        if (state.step === 3) {
+          const kind = state.asm.kind;
+          if (kind === "para") return "拼成平行四邊形了。";
+          if (kind === "overlap") return "疊在一起了。轉半圈再拼。";
+          if (kind === "almost") return "再轉一轉，對準同色的邊。";
+          return "拖動移動，拖圓點可以轉動。底會貼齊方格線。";
+        }
+        return "";
+      }
+
+      function updateUI() {
+        state.asm = state.step >= 3 ? classify() : { kind: "none" };
+        const hint = buildHint();
+        if (hint !== lastHint) {
+          hintEl.innerHTML = hint;
+          lastHint = hint;
+        }
+        const para = state.asm.kind === "para";
+        stepEls.forEach((el) => {
+          const n = Number(el.dataset.step);
+          const success = n === 3 && para && state.step === 3;
+          el.classList.toggle("is-active", n === state.step && !success);
+          el.classList.toggle("is-done", n < state.step);
+          el.classList.toggle("is-success", success);
+        });
+
+        btnNext.hidden = state.step === 3;
+        btnNext.textContent = state.step === 1 ? "複製" : "開始拼砌";
+        btnNext.disabled = state.step === 1 && !shapeOk();
+        btnReplay.hidden = state.step < 3;
+        thinkCard.hidden = !(state.step === 3 && para);
+        thinkCard.classList.toggle("is-ready", para);
+      }
+
+      function roundRect(x, y, w, h, r) {
+        ctx.beginPath();
+        ctx.moveTo(x + r, y);
+        ctx.arcTo(x + w, y, x + w, y + h, r);
+        ctx.arcTo(x + w, y + h, x, y + h, r);
+        ctx.arcTo(x, y + h, x, y, r);
+        ctx.arcTo(x, y, x + w, y, r);
+        ctx.closePath();
+      }
+
+      function drawGrid() {
+        const { cols, rows, cell, originX, originY } = state;
+        ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+        ctx.fillStyle = COLORS.paper;
+        ctx.fillRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+        for (let c = 0; c <= cols; c++) {
+          ctx.beginPath();
+          ctx.strokeStyle = c % 5 === 0 ? COLORS.gridBold : COLORS.grid;
+          ctx.lineWidth = c % 5 === 0 ? 1.4 : 1;
+          const x = originX + c * cell;
+          ctx.moveTo(x, originY);
+          ctx.lineTo(x, originY + rows * cell);
+          ctx.stroke();
+        }
+        for (let r = 0; r <= rows; r++) {
+          ctx.beginPath();
+          ctx.strokeStyle = r % 5 === 0 ? COLORS.gridBold : COLORS.grid;
+          ctx.lineWidth = r % 5 === 0 ? 1.4 : 1;
+          const y = originY + r * cell;
+          ctx.moveTo(originX, y);
+          ctx.lineTo(originX + cols * cell, y);
+          ctx.stroke();
+        }
+      }
+
+      function strokeLine(a, b, color, width, opt = {}) {
+        ctx.save();
+        ctx.beginPath();
+        ctx.lineCap = "round";
+        ctx.lineJoin = "round";
+        if (opt.dash) ctx.setLineDash(opt.dash);
+        ctx.globalAlpha = opt.alpha == null ? 1 : opt.alpha;
+        ctx.strokeStyle = color;
+        ctx.lineWidth = width;
+        ctx.moveTo(a.x, a.y);
+        ctx.lineTo(b.x, b.y);
+        ctx.stroke();
+        ctx.restore();
+      }
+
+      function drawDot(p, color, radius) {
+        ctx.beginPath();
+        ctx.fillStyle = "#fff";
+        ctx.arc(p.x, p.y, radius + 3, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(p.x, p.y, radius, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      const placedLabels = [];
+
+      function drawPill(text, x, y, color) {
+        let px = clamp(x, 28, canvas.clientWidth - 28);
+        let py = clamp(y, 18, canvas.clientHeight - 18);
+        for (const other of placedLabels) {
+          if (Math.hypot(other.x - px, other.y - py) < 40) py = clamp(other.y - 30, 18, canvas.clientHeight - 18);
+        }
+        placedLabels.push({ x: px, y: py });
+        ctx.save();
+        ctx.font = '800 16px "PingFang TC", "Microsoft JhengHei", sans-serif';
+        const w = ctx.measureText(text).width;
+        const bw = w + 16;
+        const bh = 26;
+        ctx.fillStyle = "rgba(255,255,255,0.95)";
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 2.5;
+        roundRect(px - bw / 2, py - bh / 2, bw, bh, 13);
+        ctx.fill();
+        ctx.stroke();
+        ctx.fillStyle = color;
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.fillText(text, px, py + 1);
+        ctx.restore();
+      }
+
+      function offsetAway(from, target, dist) {
+        let x = from.x - target.x;
+        let y = from.y - target.y;
+        const len = Math.hypot(x, y) || 1;
+        return { x: from.x + (x / len) * dist, y: from.y + (y / len) * dist };
+      }
+
+      function drawRightAngle(foot, apex, baseA, baseB) {
+        const ux = apex.x - foot.x;
+        const uy = apex.y - foot.y;
+        const ul = Math.hypot(ux, uy) || 1;
+        const bx = baseB.x - baseA.x;
+        const by = baseB.y - baseA.y;
+        const bl = Math.hypot(bx, by) || 1;
+        let vx = bx / bl;
+        let vy = by / bl;
+        const mid = { x: (baseA.x + baseB.x) / 2, y: (baseA.y + baseB.y) / 2 };
+        if ((mid.x - foot.x) * vx + (mid.y - foot.y) * vy < 0) { vx = -vx; vy = -vy; }
+        const s = 13;
+        const p1 = { x: foot.x + (ux / ul) * s, y: foot.y + (uy / ul) * s };
+        const p3 = { x: foot.x + vx * s, y: foot.y + vy * s };
+        const p2 = { x: p1.x + vx * s, y: p1.y + vy * s };
+        ctx.save();
+        ctx.lineCap = "round";
+        ctx.lineJoin = "round";
+        ctx.strokeStyle = "#fff";
+        ctx.lineWidth = 6;
+        ctx.beginPath();
+        ctx.moveTo(p1.x, p1.y);
+        ctx.lineTo(p2.x, p2.y);
+        ctx.lineTo(p3.x, p3.y);
+        ctx.stroke();
+        ctx.strokeStyle = HEIGHT;
+        ctx.lineWidth = 3;
+        ctx.stroke();
+        ctx.restore();
+      }
+
+      function fillTri(verts, color, shadow) {
+        ctx.save();
+        if (shadow) {
+          ctx.shadowColor = "rgba(23, 50, 77, 0.22)";
+          ctx.shadowBlur = 14;
+          ctx.shadowOffsetY = 4;
+        }
+        ctx.beginPath();
+        verts.forEach((p, i) => (i ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y)));
+        ctx.closePath();
+        ctx.fillStyle = color;
+        ctx.fill();
+        ctx.restore();
+      }
+
+      function drawEmptyCue() {
+        const x = canvas.clientWidth / 2;
+        const y = canvas.clientHeight / 2;
+        ctx.save();
+        ctx.font = '800 22px "PingFang TC", "Microsoft JhengHei", sans-serif';
+        const text = "點三個交點";
+        const w = ctx.measureText(text).width;
+        ctx.fillStyle = "rgba(255,255,255,0.82)";
+        roundRect(x - w / 2 - 16, y - 20, w + 32, 40, 20);
+        ctx.fill();
+        ctx.fillStyle = COLORS.ink;
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.fillText(text, x, y);
+        ctx.restore();
+      }
+
+      function drawEdges(pxVerts, selected) {
+        for (let i = 0; i < 3; i++) {
+          const a = pxVerts[i];
+          const b = pxVerts[(i + 1) % 3];
+          const on = selected && i === state.selectedEdge;
+          strokeLine(a, b, "#fff", on ? 14 : 11);
+          strokeLine(a, b, SIDES[i], on ? 8 : 6);
+        }
+      }
+
+      function drawJoinDash(pxVerts, piece, asm) {
+        if (!asm || asm.kind !== "para") return;
+        for (let i = 0; i < 3; i++) {
+          const shared = (piece.id === "a" && i === asm.i) || (piece.id === "b" && i === asm.j);
+          if (!shared) continue;
+          strokeLine(pxVerts[i], pxVerts[(i + 1) % 3], "#fff", 3, { dash: [5, 7] });
+        }
+      }
+
+      function drawAltitude(piece, edge, tShow, withMark) {
+        const alt = altitude(worldGrid(piece), edge);
+        if (alt.h < 0.12) return;
+        const A = gridToPx(alt.a.c, alt.a.r);
+        const B = gridToPx(alt.b.c, alt.b.r);
+        const P = gridToPx(alt.p.c, alt.p.r);
+        const F = gridToPx(alt.foot.c, alt.foot.r);
+        const t = clamp(tShow, 0, 1);
+        if (t <= 0.02) return;
+        const end = { x: P.x + (F.x - P.x) * t, y: P.y + (F.y - P.y) * t };
+        if (!alt.inside && (withMark || t > 0.2)) {
+          const ext = alt.t < 0.5 ? A : B;
+          strokeLine(ext, F, SIDES[edge], 4, { dash: [7, 7], alpha: 0.9 });
+        }
+        strokeLine(P, end, "#fff", 12);
+        strokeLine(P, end, HEIGHT, 6);
+        if (!withMark || t < 0.98) return;
+        drawRightAngle(F, P, A, B);
+        drawDot(F, HEIGHT, 5);
+        const mid = { x: (P.x + F.x) / 2, y: (P.y + F.y) / 2 };
+        const cen = {
+          x: (piece ? worldPx(piece).reduce((s, v) => s + v.x, 0) / 3 : (A.x + B.x + P.x) / 3),
+          y: (piece ? worldPx(piece).reduce((s, v) => s + v.y, 0) / 3 : (A.y + B.y + P.y) / 3),
+        };
+        const dx = F.x - P.x;
+        const dy = F.y - P.y;
+        const len = Math.hypot(dx, dy) || 1;
+        let nx = -dy / len;
+        let ny = dx / len;
+        if ((cen.x - mid.x) * nx + (cen.y - mid.y) * ny > 0) { nx = -nx; ny = -ny; }
+        drawPill("高", mid.x + nx * 36, mid.y + ny * 36, HEIGHT);
+      }
+
+      function drawBaseLabel(pxVerts, edge) {
+        const a = pxVerts[edge];
+        const b = pxVerts[(edge + 1) % 3];
+        const mid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+        const cen = {
+          x: (pxVerts[0].x + pxVerts[1].x + pxVerts[2].x) / 3,
+          y: (pxVerts[0].y + pxVerts[1].y + pxVerts[2].y) / 3,
+        };
+        const at = offsetAway(mid, cen, 34);
+        drawPill("底", at.x, at.y, SIDES[edge]);
+      }
+
+      function drawHandle(piece) {
+        const origin = gridToPx(piece.pos.c, piece.pos.r);
+        const h = rotationHandle(piece);
+        const hp = gridToPx(h.c, h.r);
+        const selected = piece.id === state.selectedId;
+        ctx.save();
+        ctx.lineCap = "round";
+        strokeLine(origin, hp, "#fff", selected ? 8 : 6);
+        strokeLine(origin, hp, COLORS.rotate, selected ? 3 : 2.5);
+        ctx.beginPath();
+        ctx.fillStyle = "#fff";
+        ctx.strokeStyle = COLORS.rotate;
+        ctx.lineWidth = 4;
+        ctx.arc(hp.x, hp.y, selected ? 20 : 17, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.stroke();
+        const r = selected ? 8 : 7;
+        ctx.beginPath();
+        ctx.strokeStyle = COLORS.rotate;
+        ctx.lineWidth = 2.5;
+        ctx.arc(hp.x, hp.y, r, -0.2, 1.7);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(hp.x, hp.y, r, 2.8, 4.7);
+        ctx.stroke();
+        ctx.restore();
+      }
+
+      function drawGhost(piece, pose) {
+        const verts = worldPx(piece, pose.pos, pose.rot);
+        ctx.save();
+        ctx.setLineDash([7, 6]);
+        ctx.lineWidth = 4;
+        ctx.lineCap = "round";
+        for (let i = 0; i < 3; i++) {
+          ctx.beginPath();
+          ctx.strokeStyle = SIDES[i];
+          ctx.moveTo(verts[i].x, verts[i].y);
+          ctx.lineTo(verts[(i + 1) % 3].x, verts[(i + 1) % 3].y);
+          ctx.stroke();
+        }
+        ctx.restore();
+      }
+
+      function drawApexRing(piece, edge) {
+        const apex = apexOf(piece, edge);
+        ctx.save();
+        ctx.beginPath();
+        ctx.strokeStyle = HEIGHT;
+        ctx.lineWidth = 4;
+        ctx.fillStyle = "#fff";
+        ctx.arc(apex.x, apex.y, 16, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.stroke();
+        ctx.restore();
+      }
+
+      function drawDraft() {
+        const pts = state.points;
+        if (pts.length === 3 && shapeOk()) {
+          const px = pts.map((g) => gridToPx(g.c, g.r));
+          fillTri(px, "rgba(0, 87, 255, 0.16)", false);
+          drawEdges(px, false);
+        } else if (pts.length >= 2) {
+          const a = gridToPx(pts[0].c, pts[0].r);
+          const b = gridToPx(pts[1].c, pts[1].r);
+          strokeLine(a, b, "#fff", 12);
+          strokeLine(a, b, SIDES[0], 6);
+        }
+        pts.forEach((g, i) => {
+          const p = gridToPx(g.c, g.r);
+          drawDot(p, SIDES[Math.min(i, 2)], pts.length < 3 ? 11 : 8);
+          if (pts.length < 3) {
+            ctx.save();
+            ctx.fillStyle = "#fff";
+            ctx.font = '800 14px "PingFang TC", "Microsoft JhengHei", sans-serif';
+            ctx.textAlign = "center";
+            ctx.textBaseline = "middle";
+            ctx.fillText(String(i + 1), p.x, p.y + 0.5);
+            ctx.restore();
+          }
+        });
+      }
+
+      function drawBuild() {
+        const asm = state.asm;
+        if (state.ghost && state.step === 3) drawGhost(state.ghost.piece, state.ghost.pose);
+        const ordered = [...state.pieces].sort((a, b) => (a.id === state.selectedId) - (b.id === state.selectedId));
+        ordered.forEach((piece) => {
+          fillTri(worldPx(piece), piece.fill, state.step === 3 && piece.id === state.selectedId);
+        });
+        ordered.forEach((piece) => {
+          const px = worldPx(piece);
+          drawEdges(px, false);
+          drawJoinDash(px, piece, asm);
+        });
+        if (state.step === 3) {
+          ordered.forEach((piece) => {
+            const joined = asm.kind === "para";
+            if (!joined || piece.id === state.selectedId) drawHandle(piece);
+          });
+        }
+      }
+
+      function altInside(piece, edge) {
+        return altitude(worldGrid(piece), edge).inside;
+      }
+
+      function drawExtensionOnly(piece, edge) {
+        const alt = altitude(worldGrid(piece), edge);
+        if (alt.inside) return;
+        const A = gridToPx(alt.a.c, alt.a.r);
+        const B = gridToPx(alt.b.c, alt.b.r);
+        const F = gridToPx(alt.foot.c, alt.foot.r);
+        strokeLine(alt.t < 0.5 ? A : B, F, SIDES[edge], 4, { dash: [7, 7], alpha: 0.9 });
+      }
+
+      function draw() {
+        placedLabels.length = 0;
+        if (state.step >= 3) state.asm = classify();
+        drawGrid();
+        if (state.step === 1) {
+          drawDraft();
+          if (state.points.length === 0) drawEmptyCue();
+        } else {
+          drawBuild();
+        }
+      }
+
+      btnReset.addEventListener("click", resetAll);
+      btnReplay.addEventListener("click", replay);
+      btnNext.addEventListener("click", goNext);
+      canvas.addEventListener("pointerdown", (e) => { e.preventDefault(); onPointerDown(e); }, { passive: false });
+      canvas.addEventListener("pointermove", (e) => { e.preventDefault(); onPointerMove(e); }, { passive: false });
+      canvas.addEventListener("pointerup", onPointerUp);
+      canvas.addEventListener("pointercancel", onPointerUp);
+      canvas.addEventListener("contextmenu", (e) => e.preventDefault());
+      document.addEventListener("gesturestart", (e) => e.preventDefault());
+      window.addEventListener("resize", () => { layout(); draw(); });
+      if (window.ResizeObserver) {
+        new ResizeObserver(() => { layout(); draw(); }).observe(canvas.parentElement);
+      }
+      layout();
+      updateUI();
+      draw();
+    })();
+  </script>
+</body>
+</html>
